@@ -6,7 +6,7 @@ DOCKER = docker
 COMPOSE_FILE = ./srcs/docker-compose.yml
 
 # Liste des services
-SERVICES = mariadb wordpress
+SERVICES = mariadb wordpress nginx
 
 # Règle principale : lance toute l'infrastructure
 all: build up
